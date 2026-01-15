@@ -12,39 +12,6 @@ A modern video sharing platform frontend built with React, Vite, Tailwind v4, sh
 - **Responsive Design** - Mobile-first, works on all devices
 - **Dark Mode Ready** - Full dark mode support
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js v18+ installed
-- Your backend API hosted on Render
-
-### Installation
-
-1. **Configure Environment Variables**
-
-Create a `.env` file in the `frontend` directory:
-
-```env
-VITE_API_BASE_URL=https://your-backend-app.onrender.com/api/v1
-VITE_APP_NAME=VioletStream
-```
-
-2. **Install Dependencies**
-
-```bash
-cd frontend
-npm install
-```
-
-3. **Run Development Server**
-
-```bash
-npm run dev
-```
-
-The app will be available at `http://localhost:5173`
-
 ## 📁 Project Structure
 
 ```
@@ -75,7 +42,7 @@ frontend/
 └── package.json
 ```
 
-## 🎨 Violet Stream Theme
+## 🎨 Vidora Theme
 
 The app uses a custom color palette:
 
@@ -113,29 +80,4 @@ All API calls go to your Render backend. The app uses:
 - JWT tokens with auto-refresh
 - Axios interceptors for token management
 
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-The production build will be in the `dist` directory.
-
-## 🎯 Next Steps
-
-1. **Update `.env`** with your actual Render backend URL
-2. **Add Video Components** when video APIs are ready
-3. **Implement Video Upload** functionality
-4. **Add Comments** and **Likes** features
-5. **Create Subscription** logic
-
-## 📝 Notes
-
-- StrictMode is disabled to prevent double API calls in development
-- The app automatically tries to fetch current user on mount
-- Protected routes redirect to login if not authenticated
-- Tokens are stored in localStorage and cookies
-
----
-
-**Built with 💜 by VioletStream Team**
+**Built with 💜 by Aayush Mathur**
