@@ -1,10 +1,10 @@
-# VioletStream - YouTube-like Video Platform Frontend
+# Vidora - YouTube-like Video Platform Frontend
 
 A modern video sharing platform frontend built with React, Vite, Tailwind v4, shadcn/ui, and Redux Toolkit.
 
 ## 🎨 Features
 
-- **Custom Violet Stream Theme** - Unique violet/indigo/pink color palette
+- **Custom Vidora Theme** - Unique violet/indigo/pink color palette
 - **Authentication System** - Login, register, JWT-based authentication
 - **User Profiles** - Channel pages with subscriber counts
 - **Watch History** - Track and display watched videos
