@@ -11,6 +11,7 @@ import ChannelPage from './pages/ChannelPage';
 import WatchHistoryPage from './pages/WatchHistoryPage';
 import SettingsPage from './pages/SettingsPage';
 import UploadVideo from './pages/UploadVideo';
+import Watch from './pages/Watch';
 
 function App() {
   return (
