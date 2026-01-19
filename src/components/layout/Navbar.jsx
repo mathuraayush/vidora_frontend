@@ -18,7 +18,7 @@ import {
 import { Search, PlayCircle, Upload, User, Settings, LogOut, Menu } from 'lucide-react';
 import { toast } from 'sonner';
 import { useNavigate } from 'react-router-dom';
-import ThemeToggle from "@/components/ThemeToggle";
+import ThemeToggle from "../ThemeToggler";
 
 
 
