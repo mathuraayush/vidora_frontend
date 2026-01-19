@@ -84,6 +84,15 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route
+            path="/watch/:videoId"
+            element={
+              <ProtectedRoute>
+                <Watch />
+              </ProtectedRoute>
+            }
+          />
+
 
           {/* Catch all */}
           <Route path="*" element={<Navigate to="/" replace />} />
