@@ -37,6 +37,10 @@ function Watch() {
       <div className="lg:col-span-2 space-y-4">
         {/* PLAYER */}
         <div className="rounded-xl overflow-hidden bg-black">
+
+          
+
+            
           <video
             src={video.videoFile}
             controls
